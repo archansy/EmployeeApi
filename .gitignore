@@ -1,0 +1,58 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio files
+.vs/
+
+# Rider files
+.idea/
+*.sln.iml
+
+# Visual Studio Code settings
+.vscode/
+
+# NuGet packages
+*.nupkg
+packages/
+
+# ASP.NET temporary files
+*.log
+*.vspscc
+
+# MSBuild generated files
+*.builds
+
+# DotNet local tools
+.dotnet/tools/
+
+# Publish output
+publish/
+
+# JetBrains Rider local history
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+
+# User secrets
+secrets.json
+
+# Generated files
+*.dbmdl
+
+# npm packages (if any)
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
