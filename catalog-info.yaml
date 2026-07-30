@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: employee-api
+  description: Employee API service
+spec:
+  type: service
+  lifecycle: production
+  owner: team@example.com
+  providesApis:
+    - employee-api
