@@ -3,9 +3,15 @@ kind: Component
 metadata:
   name: employee-api
   description: Employee API service
+  tags:
+    - api
+    - employee
+    - dotnet
+    - webapi
+    - idp-learning
 spec:
   type: service
-  lifecycle: production
-  owner: team@example.com
+  lifecycle: development
+  owner: guest
   providesApis:
     - employee-api
