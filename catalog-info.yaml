@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: employeeapi
+  description: api
+  annotations:
+    backstage.io/source-location: url:https://github.com/archansy/EmployeeApi
+spec:
+  type: service
+  lifecycle: exp
+  owner: group:default/platform
