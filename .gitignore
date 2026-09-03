@@ -32,8 +32,27 @@ packages/
 # DotNet local tools
 .dotnet/tools/
 
+# EF Core local artifacts
+*.db
+*.db-shm
+*.db-wal
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
 # Publish output
 publish/
+
+# Test and coverage artifacts
+TestResults/
+*.trx
+coverage/
+coverage-report/
+
+# Local overrides
+docker-compose.override.yml
 
 # JetBrains Rider local history
 .idea/**/workspace.xml
